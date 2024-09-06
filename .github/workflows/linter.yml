@@ -9,8 +9,6 @@ on:
       - .github/workflows/linter.yml
 
   pull_request:
-    branches:
-      - main
     paths:
       - '**.py'
       - .github/workflows/linter.yml
